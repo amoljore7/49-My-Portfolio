@@ -17,7 +17,7 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
                 <Image
-                  className="profile justify-content-end"
+                  className="rounded-circle"
                   alt="profile"
                   src={Profile}
                   thumbnail
@@ -36,7 +36,7 @@ const About = () => {
                   as (Payment-Paypal, eCommerce-Website & ToDo App & MERN
                   applications) In terms of the Web framework having experience
                   in both back-end and front-end development, developed many
-                  full-stack based web application using Node.js, React.js &
+                  full-stack based web application using Node, Express &
                   MongoDB.
                 </p>
                 <br />
