@@ -3,8 +3,10 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
+
+import L_MernShopingHub from "../../assets/img/projects/shopingHub.png";
+
+import L_GetGitHubInfo from "../../assets/img/projects/gitHub.png";
 import L_SmartBrain from "../../assets/img/projects/brain.webp";
 import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
 import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
@@ -28,7 +30,6 @@ import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 
-
 import "./projects-timeline.styles.css";
 
 const TimeLine = () => {
@@ -37,8 +38,8 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        {/* Project: Todo List With MUI */}
-        <ImageEvent
+          {/* Project: Todo List With MUI */}
+          {/* <ImageEvent
             date="01/10/2020"
             className="text-center"
             text="React ToDo App"
@@ -59,7 +60,9 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> This is a Todo App created
+                        with React and Material UI that keeps a track of your
+                        Todos
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -114,7 +117,6 @@ const TimeLine = () => {
                               Material-UI
                             </span>
                           </li>
-                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -142,16 +144,15 @@ const TimeLine = () => {
                 </UrlButton>
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
 
-
-{/* Project: MERN Tip Calculator */}
-<ImageEvent
-            date="16/09/2020"
+          {/* Project: MERN Tip Calculator */}
+          <ImageEvent
+            date="21/03/2021"
             className="text-center"
-            text="MERN Tip Calculator"
-            src={L_MernTipCalc}
-            alt="MERN Tip Calculator"
+            text="MERN eCommerce ProShop"
+            src={L_MernShopingHub}
+            alt="MERN eCommerce ProShop"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -167,14 +168,17 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
-                        It uses MERN stack build to acomplish the same.
+                        <strong>Description:</strong> Build an eCommerce
+                        platform from the ground up with React, Redux, Node,
+                        Express & MongoDB. It uses MERN stack build to acomplish
+                        the same.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Enter amount upto your desire</li>
+                          <li>User Registration</li>
+                          <li>Paypal payment gateway</li>
                           <li>Real-time API calls with Backend features</li>
-                          <li>Styled with  Material-UI</li>
+                          <li>Styled with Material-UI</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -188,6 +192,17 @@ const TimeLine = () => {
                                 className="image-style1 m-1"
                               ></Image>{" "}
                               React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Redux
                             </span>
                           </li>
                           <li>
@@ -242,16 +257,16 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/akjha96/MernTipCaculator-FrontEnd"
+                  href="https://github.com/amoljore7/47-MERN-Full-Stack-ShopingHub"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-nodejs-expressjs-activity-6712281977107603456-oH6t"
+                  href="https://shopinghub.herokuapp.com/"
                   target="_blank"
                 >
-                  WATCH VIDEO
+                  SEE LIVE
                 </UrlButton>
               </div>
             </div>
@@ -259,7 +274,7 @@ const TimeLine = () => {
 
           {/* Project: Get GitHub Info */}
           <ImageEvent
-            date="19/07/2020"
+            date="11/02/2021"
             className="text-center"
             text="Get GitHub Info"
             src={L_GetGitHubInfo}
@@ -343,22 +358,14 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/getGithubInfo/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/getGithubInfo"
+                  href="https://github.com/amoljore7/48-Get-GitHub-info"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be"
-                  target="_blank"
-                >
-                  WATCH VIDEO
+
+                <UrlButton href="https://www.youtube.com" target="_blank">
+                  SEE LIVE
                 </UrlButton>
               </div>
             </div>
