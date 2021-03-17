@@ -8,6 +8,7 @@ import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
+import L_ANT_D from "../../assets/img/skills/L_ANT_D.png";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_DJANGO from "../../assets/img/skills/django.svg";
@@ -18,6 +19,7 @@ import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
+import L_DOCKER from "../../assets/img/skills/docker.png";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
@@ -33,7 +35,8 @@ export const skills = {
       skillName: "HTML5",
     },
     {
-      link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
+      link:
+        "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
       imgAltText: "CSS 3",
       imgSrc: L_CSS3,
       skillName: "CSS3",
@@ -87,12 +90,17 @@ export const skills = {
       skillName: "React Bootstrap",
     },
     {
+      link: "https://ant.design/docs/react/introduce",
+      imgAltText: "Ant Design",
+      imgSrc: L_ANT_D,
+      skillName: "Ant Design",
+    },
+    {
       link: "https://styled-components.com/",
       imgAltText: "styled-components",
       imgSrc: L_STYLED_COMPONENTS,
       skillName: "styled-components",
     },
-    
   ],
 
   backend: [
@@ -108,18 +116,18 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
-    },
+    // {
+    //   link: "https://www.djangoproject.com/",
+    //   imgAltText: "Django",
+    //   imgSrc: L_DJANGO,
+    //   skillName: "Django",
+    // },
+    // {
+    //   link: "https://flask.palletsprojects.com/",
+    //   imgAltText: "Flask",
+    //   imgSrc: L_FLASK,
+    //   skillName: "Flask",
+    // },
   ],
   hostingPlatforms: [
     {
@@ -128,17 +136,23 @@ export const skills = {
       imgSrc: L_HEROKU,
       skillName: "Heroku",
     },
-    {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
-    },
+    // {
+    //   link: "https://www.digitalocean.com/",
+    //   imgAltText: "Digital Ocean",
+    //   imgSrc: L_DIGITAL_OCEAN,
+    //   skillName: "Digital Ocean",
+    // },
     {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
+    },
+    {
+      link: "https://hub.docker.com/",
+      imgAltText: "Docker Hub",
+      imgSrc: L_DOCKER,
+      skillName: "Docker Hub",
     },
   ],
   programmingLanguages: [
@@ -154,26 +168,26 @@ export const skills = {
       imgSrc: L_TYPESCRIPT,
       skillName: "TypeScript",
     },
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
-    },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
-    },
+    // {
+    //   link: "https://www.python.org/",
+    //   imgAltText: "Python",
+    //   imgSrc: L_PYTHON,
+    //   skillName: "Python",
+    // },
+    // {
+    //   link: "https://golang.org/",
+    //   imgAltText: "Golang",
+    //   imgSrc: L_GOLANG,
+    //   skillName: "Golang",
+    // },
   ],
   databases: [
-    {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
-    },
+    // {
+    //   link: "https://www.postgresql.org/",
+    //   imgAltText: "PostgreSQL",
+    //   imgSrc: L_POSTGRESQL,
+    //   skillName: "PostgreSQL",
+    // },
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
       imgAltText: "MS-SQL",
