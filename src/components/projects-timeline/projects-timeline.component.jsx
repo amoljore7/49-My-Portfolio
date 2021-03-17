@@ -2,15 +2,11 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-
 import L_MernShopingHub from "../../assets/img/projects/shopingHub.png";
 import L_GetGitHubInfo from "../../assets/img/projects/gitHub.png";
 import L_GetWeather from "../../assets/img/projects/weatherAPP.png";
 import L_TicTacToe from "../../assets/img/projects/tic-tac-toe.png";
 
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -38,115 +34,7 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-          {/* Project: Todo List With MUI */}
-          {/* <ImageEvent
-            date="01/10/2020"
-            className="text-center"
-            text="React ToDo App"
-            src={L_ReactToDoList}
-            alt="React ToDo App"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created
-                        with React and Material UI that keeps a track of your
-                        Todos
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
-                          <li>Respoisive Design</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent> */}
-
-          {/* Project: MERN Tip Calculator */}
+          {/* Project: MERN eCommerce ProShop */}
           <ImageEvent
             date="21/03/2021"
             className="text-center"
@@ -364,14 +252,17 @@ const TimeLine = () => {
                   SOURCE CODE
                 </UrlButton>
 
-                <UrlButton href="https://www.youtube.com" target="_blank">
+                <UrlButton
+                  href="https://amoljore7.github.io/48-Get-GitHub-info/"
+                  target="_blank"
+                >
                   SEE LIVE
                 </UrlButton>
               </div>
             </div>
           </ImageEvent>
 
-          {/* Project: Smart Brain */}
+          {/* Project: Get Weather */}
           <ImageEvent
             date="01/01/2021"
             className="text-center"
@@ -441,10 +332,10 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: RoboFriends */}
+          {/* Project: Tic-TAC-TOE Game */}
 
           <ImageEvent
-            date="14/01/2020"
+            date="21/03/2020"
             className="text-center"
             text="Tic-TAC-TOE Game"
             src={L_TicTacToe}
@@ -523,116 +414,6 @@ const TimeLine = () => {
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/amoljore7/26-tic-tac-toe-ReactJS-Game"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: Product_Hunt_Clone */}
-
-          <ImageEvent
-            date="15/12/2019"
-            className="text-center"
-            text="Product Hunt Clone"
-            src={L_ProductHuntClone}
-            alt="Product Hunt Clone"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This website is a clone of
-                        Product Hunt built using Django.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Register as new user</li>
-                          <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
-                          <li>Delete a product</li>
-                          <li>Like and Dislike a product</li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DJANGO}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/akjha96/product_hunt_clone"
                   target="_blank"
                 >
                   SOURCE CODE

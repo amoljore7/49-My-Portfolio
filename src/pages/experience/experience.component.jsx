@@ -20,12 +20,18 @@ const Experience = () => {
                 as="h5"
                 className="d-flex justify-content-center flex-wrap"
               >
-                <Card.Img
-                  variant="top"
-                  className="img-resize"
-                  src={L_GSLAb}
-                  alt="Accenture logo"
-                />
+                <a
+                  href="https://www.gslab.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Card.Img
+                    variant="top"
+                    className="img-resize"
+                    src={L_GSLAb}
+                    alt="logo"
+                  />
+                </a>
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
@@ -72,12 +78,18 @@ const Experience = () => {
                 as="h5"
                 className="d-flex justify-content-center flex-wrap"
               >
-                <Card.Img
-                  variant="top"
-                  className="img-resize"
-                  src={L_k12}
-                  alt="Accenture logo"
-                />
+                <a
+                  href="https://k12technoservices.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Card.Img
+                    variant="top"
+                    className="img-resize"
+                    src={L_k12}
+                    alt="Accenture logo"
+                  />
+                </a>
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
@@ -111,12 +123,18 @@ const Experience = () => {
                 as="h5"
                 className="d-flex justify-content-center flex-wrap"
               >
-                <Card.Img
-                  variant="top"
-                  className="img-resize"
-                  src={L_MINDSTIX}
-                  alt="Accenture logo"
-                />
+                <a
+                  href="https://www.mindstix.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Card.Img
+                    variant="top"
+                    className="img-resize"
+                    src={L_MINDSTIX}
+                    alt="Accenture logo"
+                  />
+                </a>
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
