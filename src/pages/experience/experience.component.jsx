@@ -2,7 +2,9 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import L_ACCENTURE from "../../assets/img/experience/accenture-3.svg";
+import L_GSLAb from "../../assets/img/experience/GS-Lab-Logo.jpg";
+import L_k12 from "../../assets/img/experience/k12.png";
+import L_MINDSTIX from "../../assets/img/experience/mindstix.jpg";
 import Tilt from "react-tilt";
 import "./experience.styles.css";
 
@@ -14,36 +16,132 @@ const Experience = () => {
         <Container>
           <Tilt options={{ max: 25 }}>
             <Card>
-              <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" />
+              <Card.Header
+                as="h5"
+                className="d-flex justify-content-center flex-wrap"
+              >
+                <Card.Img
+                  variant="top"
+                  className="img-resize"
+                  src={L_GSLAb}
+                  alt="Accenture logo"
+                />
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Associate Software Engineer</Card.Title>
+                  <Card.Title className="text-center">
+                    Software Engineer
+                  </Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Full Stack Developer</strong>
+                    <strong className="body-title-style ">
+                      MERN Stack Developer
+                    </strong>
                     <br />
-                    <strong>Technology:</strong> React JS, DOTNET, C#, MS-SQL, Python
+                    <strong>Technology:</strong> React JS, Redux-saga,
+                    Redux-Thunk, Material-UI
                     <br />
-                    <strong>Duration:</strong> June 2019 - Present
-                    <br/>
+                    <strong>Duration:</strong> March 2020 - Present
+                    <br />
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                      <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
-                        increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
+                      <li>
+                        <strong>Developed &amp; enhanced</strong> multiple
+                        features with customizability option across web
+                        application.
                       </li>
-                      <li><strong>Provided</strong> application maintenance while working as `Production Support`. 
+                      <li>
+                        <strong>Provided</strong> application maintenance while
+                        working as `Production Support`.
                       </li>
-                      <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
-                      to the business requirements.</li>
+                      <li>
+                        <strong>Performed</strong> CRUD operations on multiple
+                        databases to load/ remove data according to the business
+                        requirements.
+                      </li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
-
                     </ul>
-                    
-                    
+                  </Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
+            <br></br>
+            <Card>
+              <Card.Header
+                as="h5"
+                className="d-flex justify-content-center flex-wrap"
+              >
+                <Card.Img
+                  variant="top"
+                  className="img-resize"
+                  src={L_k12}
+                  alt="Accenture logo"
+                />
+              </Card.Header>
+              <Card.Body className="d-flex justify-content-center flex-column">
+                <div>
+                  <Card.Title className="text-center">
+                    Front-End Developer
+                  </Card.Title>
+                </div>
+                <div>
+                  <Card.Text className="text-center style">
+                    <br />
+                    <strong>Technology:</strong> React JS, Redux-Thunk,
+                    Material-UI
+                    <br />
+                    <strong>Duration:</strong> October 2019 - February 2020
+                    <br />
+                    <strong> Description </strong>
+                    <ul className="text-left">
+                      <li>
+                        <strong>Developed Projects </strong>
+                        i) cvBox (similar as naukri.com). ii) UDANTA (like
+                        udemy)
+                      </li>
+                    </ul>
+                  </Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
+            <br></br>
+            <Card>
+              <Card.Header
+                as="h5"
+                className="d-flex justify-content-center flex-wrap"
+              >
+                <Card.Img
+                  variant="top"
+                  className="img-resize"
+                  src={L_MINDSTIX}
+                  alt="Accenture logo"
+                />
+              </Card.Header>
+              <Card.Body className="d-flex justify-content-center flex-column">
+                <div>
+                  <Card.Title className="text-center">Intern</Card.Title>
+                </div>
+                <div>
+                  <Card.Text className="text-center style">
+                    <strong className="body-title-style ">
+                      ReactJS Developer
+                    </strong>
+                    <br />
+                    <strong>Technology:</strong> React JS, Redux-saga,
+                    Redux-Thunk,
+                    <br />
+                    <strong>Duration:</strong> April 2019 - September 2019
+                    <br />
+                    <strong> Description </strong>
+                    <ul className="text-left">
+                      <li>
+                        <strong>Developed </strong>
+                        Desktop Progressive Web App with Google Analytics and
+                        Google Tag Manager. multiple features with app
+                        intsallation option.
+                      </li>
+                    </ul>
                   </Card.Text>
                 </div>
               </Card.Body>
