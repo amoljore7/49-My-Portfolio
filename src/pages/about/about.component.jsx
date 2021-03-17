@@ -42,26 +42,30 @@ const About = () => {
                 <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
-                    <a href="#contact">
+                    <a
+                      href="https://drive.google.com/drive/u/1/folders/19qjPU2u5mZZgTrnAiUjXlP_o440Szh5q"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button className="m-2" variant="outline-primary">
-                        Let's talk
+                        Certificates
                       </Button>
                     </a>
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1Gg9s04DhBaKrg9lFTYYDvo1ygIi3Q_1N/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <Button className="m-2" variant="outline-success">
-                        My Resume
+                        Resume
                       </Button>
                     </a>
                   </div>
                   <div>
                     <a
-                      href="https://github.com/akjha96"
+                      href="https://github.com/amoljore7"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -72,7 +76,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/"
+                      href="https://www.linkedin.com/in/amol-jore-833bb1152/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

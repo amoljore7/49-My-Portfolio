@@ -14,18 +14,18 @@ const ContactForm = () => {
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a
-                href="mailto:akjha96@gmail.com"
+                href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Drm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-danger" title="akjha96@gmail.com">
+                <Button variant="outline-danger" title="amoljore7@gmail.com">
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
               </a>
             </div>
             <div className="m-2">
               <a
-                href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/"
+                href="https://www.linkedin.com/in/amol-jore-833bb1152/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +37,7 @@ const ContactForm = () => {
 
             <div className="m-2">
               <a
-                href="https://github.com/akjha96"
+                href="https://github.com/amoljore7"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -48,7 +48,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://www.youtube.com/user/MrAkjha96/"
+                href="https://www.youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -63,7 +63,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://twitter.com/akjha96"
+                href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -74,7 +74,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://www.facebook.com/akjha132"
+                href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
