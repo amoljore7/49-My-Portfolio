@@ -10,6 +10,7 @@ import Experience from "./pages/experience/experience.component";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact-form/contact-form.component";
+import Programs from "./pages/programs/programs";
 import { Parallax } from "react-parallax";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particlesOptions";
@@ -65,6 +66,16 @@ const App = () => {
           <TimeLine />
         </Slide>
       </Container>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Programs />
+          </Fade>
+        </Container>
+      </div>
+
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />
