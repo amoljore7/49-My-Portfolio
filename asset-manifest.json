@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/49-Amol-Jore-Portfolio/static/css/main.8c1a3127.chunk.css",
-    "main.js": "/49-Amol-Jore-Portfolio/static/js/main.e462a6ac.chunk.js",
-    "main.js.map": "/49-Amol-Jore-Portfolio/static/js/main.e462a6ac.chunk.js.map",
+    "main.js": "/49-Amol-Jore-Portfolio/static/js/main.899f3547.chunk.js",
+    "main.js.map": "/49-Amol-Jore-Portfolio/static/js/main.899f3547.chunk.js.map",
     "runtime-main.js": "/49-Amol-Jore-Portfolio/static/js/runtime-main.9f96d71b.js",
     "runtime-main.js.map": "/49-Amol-Jore-Portfolio/static/js/runtime-main.9f96d71b.js.map",
     "static/js/2.688c09cb.chunk.js": "/49-Amol-Jore-Portfolio/static/js/2.688c09cb.chunk.js",
     "static/js/2.688c09cb.chunk.js.map": "/49-Amol-Jore-Portfolio/static/js/2.688c09cb.chunk.js.map",
     "index.html": "/49-Amol-Jore-Portfolio/index.html",
-    "precache-manifest.a5ba111c930fb6543f1a27ad086128aa.js": "/49-Amol-Jore-Portfolio/precache-manifest.a5ba111c930fb6543f1a27ad086128aa.js",
+    "precache-manifest.2ca76ca059edad88c34ef00b97017e03.js": "/49-Amol-Jore-Portfolio/precache-manifest.2ca76ca059edad88c34ef00b97017e03.js",
     "service-worker.js": "/49-Amol-Jore-Portfolio/service-worker.js",
     "static/css/main.8c1a3127.chunk.css.map": "/49-Amol-Jore-Portfolio/static/css/main.8c1a3127.chunk.css.map",
     "static/js/2.688c09cb.chunk.js.LICENSE.txt": "/49-Amol-Jore-Portfolio/static/js/2.688c09cb.chunk.js.LICENSE.txt",
@@ -61,6 +61,6 @@
     "static/js/runtime-main.9f96d71b.js",
     "static/js/2.688c09cb.chunk.js",
     "static/css/main.8c1a3127.chunk.css",
-    "static/js/main.e462a6ac.chunk.js"
+    "static/js/main.899f3547.chunk.js"
   ]
 }

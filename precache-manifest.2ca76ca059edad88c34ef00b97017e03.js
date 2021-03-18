@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b9afcbcdf693a34e2b928e8ec7285e9",
+    "revision": "eb78f1d5bc36a1d9df1a7a772b0019f7",
     "url": "/49-Amol-Jore-Portfolio/index.html"
   },
   {
-    "revision": "aa4aace176d2edce3333",
+    "revision": "0032b59dc5a614c2c59b",
     "url": "/49-Amol-Jore-Portfolio/static/css/main.8c1a3127.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/49-Amol-Jore-Portfolio/static/js/2.688c09cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa4aace176d2edce3333",
-    "url": "/49-Amol-Jore-Portfolio/static/js/main.e462a6ac.chunk.js"
+    "revision": "0032b59dc5a614c2c59b",
+    "url": "/49-Amol-Jore-Portfolio/static/js/main.899f3547.chunk.js"
   },
   {
     "revision": "357fbaf03e7536acd679",
