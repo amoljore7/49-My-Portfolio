@@ -2,7 +2,6 @@
   "name": "reactfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://amoljore7.github.io/49-Amol-Jore-Portfolio/",
   "dependencies": {
     "@merc/react-timeline": "^0.1.42",
     "@testing-library/jest-dom": "^4.2.4",
@@ -21,8 +20,6 @@
     "typewriter-effect": "^2.13.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
 }
