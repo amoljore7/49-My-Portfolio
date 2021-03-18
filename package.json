@@ -2,6 +2,7 @@
   "name": "reactfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://amoljore7.github.io/49-My-Portfolio/",
   "dependencies": {
     "@merc/react-timeline": "^0.1.42",
     "@testing-library/jest-dom": "^4.2.4",
