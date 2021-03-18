@@ -11,6 +11,7 @@ const MyNavbar = () => {
         fixed="top"
         variant="dark"
         expand="md"
+        collapseOnSelect
         className="animate-navbar nav-theme justify-content-between"
       >
         <div>
